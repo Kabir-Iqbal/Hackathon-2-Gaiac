@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabir's - Portfolio</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header >
+        <nav >
+             
+            <div class="left"> Kabir's Portfolio</div>
+            <div class="right " >
+                <ul id="menulist">
+                    <li> <a href="#home"> Home </a> </li>
+                    <li> <a href="#about"> About </a> </li>
+                    <li> <a href="#skills"> Skills </a> </li>
+                    <li> <a href="#contact">Contact </a> </li>
+                </ul>
+            </div>
+
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-close"></i>
+            </div>
+        </nav>
+    </header>
+    <main >
+        <section class="first-section" id="home">
+            <div class="left-section">
+                <div>Hi,My name is <span class="purple"> Kabir Iqbal </span> </div>
+                <div> and Iam passionate </div>
+                <span id="element"></span>
+                <div class="btn">
+                    <button class="butn">View linkdin</button>
+                    <button class="butn">Visit Github</buton>
+                </div>
+            </div>
+            <div class="right-section"> <img src="./public/profile.jpg" alt="Profile">
+            </div>
+        </section>
+
+        <!-- Line -->
+        <hr
+            style="width: 90%; border: 0; background-color: rgb(136, 100, 170); height: 1px; margin: 0 auto; margin-top: 70px;">
+
+
+        <!-- About -->
+        <section id="about" class="About">
+            <h2>About Me</h2>
+            <h3>A Passionate Front-End Developer </h3>
+
+            <hr class="first-hr" style="width: 28%;">
+            <p>Iam a passionate front-end developer with a foundation in HTML , CSS , Javascript , Typescript.
+                I enjoying creating responsivnes,user friendly and web application that focus on clean design and
+                seamiess functionality. As someone who is always eagger to learn and grow. Iam currently expanding
+                my skill set by react.js and Next.js to enhance my ability to build modern, high perfomance web solution
+            </p>
+
+            <h3> Current Studies</h3>
+            <hr class="second-hr" style="width: 13%;">
+            <p>Iam currently in second quarter of an Artificial intelligence course, having success cleard first quarter
+                with the 70 percentile. My journey continous as I enhance my skills inn both AI and front-end
+                development.</p>
+
+            <h3>Future Goals</h3>
+            <hr class="third-hr" style="width: 10%;">
+            <p>As I continue to master modern web development technologies. My goal is work to more comlex , scalabe
+                projects,
+                Iam excited to explore more opertunties when I can merge my front-end experties with my growing
+                knowledge
+                in Artificial intelligence, contributing to innovative and impactiful solutions.</p>
+
+            <!-- Line -->
+            <hr
+                style="width: 90%; border: 0; background-color: rgb(136, 100, 170); height: 1px; margin: 0 auto; margin-top: 70px;">
+
+        </section>
+
+        <!-- Skills -->
+        <section>
+
+            <h2 >Skills</h2>
+            <div class="skill" id="skills">
+                
+
+                    <div class="card card-1">
+                        <img src="./public/html-logo.png" alt="Html5" style="width: 80px; height: 80px;">
+                        <h4>Html5</h4>
+                        <p>The basic language for structuring web content.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./public/css3.png" alt="CSS3" style="width: 80px; height: 80px;">
+                        <h4>CSS3</h4>
+                        <p> Styles and layouts for web pages.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./public/typescript.png" alt="Typescript" style="width: 80px; height: 80px;">
+                        <h4>Typescript</h4>
+                        <p>Typed JavaScript for better error checking and maintainability.</p>
+                    </div>
+                    <div class="card card-1">
+                        <img src="./public/tailwind.png" alt="Tailwind" style="width: 80px; height: 80px;">
+                        <h4>Tailwind CSS </h4>
+                        <p>Utility-first framework for quick, custom designs.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/public/react.webp" alt="Reactjs" style="width: 80px; height: 80px;">
+                        <h4>React.js </h4>
+                        <p>Library for building UI components and single-page apps.</p>
+                    </div>
+                    <div class="card">
+                        <img src="/public/next.png" alt="Next.js" style="width: 80px; height: 80px;">
+                        <h4> Next.js </h4>
+                        <p>React framework for server-side rendering and enhanced performance.</p>
+                </div>
+            </div>
+        </section>
+
+            <!-- Line -->
+            <hr
+                style="width: 90%; border: 0; background-color: rgb(136, 100, 170); height: 1px; margin: 0 auto; margin-top: 70px;">
+        
+    
+
+        <!-- Contact Form -->
+        <section class="form" id="contact">
+
+
+            <form action="xyz.gmail.com" method="post" class="form-box">
+                <h2>Contact Form</h2>
+                <p class="form-p">Full Name:</p>
+                <input type="text" id="name" name="name" width="90vw" height="5px" placeholder="Your Name" required>
+                <p class="form-p">Email:</p>
+                <input type="email" id="email" name="email" width="500px" height="8px" placeholder="xyz.gmailcom"
+                    required>
+                <p class="form-p">Message:</p>
+                <textarea name="Message" id="Message" rows="3" cols="61" placeholder="Yourr Message..?"
+                    required></textarea>
+                <div class="box-btn">
+                    <button type="submit" class="sub-btn">Submit</button>
+                </div>
+            </form>
+        </section>
+    
+    </main>
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="title">
+            <h2>Dedicated Developer</h2>
+            <p>"Skilled developer who loves creating smart and efficient web solutions. I enjoy turning ideas into
+                simple,
+                user-friendly experiences. Always learning new technologies and ready to solve problems to deliver great
+                results."</p>
+        </div>
+
+        <div>
+            <h2>Get in Touch</h2>
+            <div class="icons">
+                <a href="www.login"><i class="fa-brands fa-linkedin" id="linkdin"></i></a>
+                <a href="www.login "><i class="fa-brands fa-facebook-f" id="fb"></i> </a>
+                <a href=" www.login"><i class="fa-brands fa-github" id="github"></i> </a>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', '&amp; and Web developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+<script src="scripte.js"></script>
+
+</html>

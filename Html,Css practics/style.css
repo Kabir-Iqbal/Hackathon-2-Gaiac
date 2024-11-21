@@ -1,0 +1,528 @@
+/* Home Page */
+*{
+    margin: 0;
+    padding: 0px;
+   /* overflow-y: auto; /* allows the vertical scroll bar */
+   /* overflow-x: hidden;   /* hidden horizontal scrolling */
+
+}
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(27, 27, 85);
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+div.right ul li{
+    font-size: 1rem;
+}
+.left{
+    font-size: 26px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px 15px 80px;
+    position: relative;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover {
+     color: rgb(143, 182, 190);
+     width: 1em;
+}
+
+.menu-icon{
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+.fa-close{
+    display: none;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    scroll-margin: 200px;
+    height: 100vh;
+}
+.left-section{
+       width: 65%;
+       
+       
+}
+
+.righ-section{
+    width: 35%;
+    
+    
+}
+img{
+    width: 280px;
+    height: 280px;
+    margin-top: 0px;
+    clip-path: circle(50%);
+    margin-left:  30px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+div.left-section {
+    font-size: 2rem;
+}
+.purple{
+    color: rgb(136, 100, 170);
+}
+#element{
+    color: rgb(136, 100, 170);
+}
+
+.btn{
+    position: relative;
+    margin-left: 38px; 
+}
+
+.butn{
+     background-color: purple;
+     padding: 12px 25px 12px 25px;
+     margin-top: 35px; 
+     cursor: pointer;   
+     border: none;
+     border-radius: 10px;
+}
+.butn:hover{
+    background-color: #ad33ad;
+    
+}
+
+/* About Page */
+.About{
+    padding-top: 50px;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.877);
+    height: fit-content;
+    scroll-margin: 38px;
+}
+ h2{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+h3{
+    margin-top: 55px;
+    
+}
+hr{
+    margin-bottom: 15px;
+}
+p{
+    font-size: 15px;
+}
+
+/* Skill page */
+.skill{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    scroll-margin: 120px;
+    justify-content: center;
+  }
+ 
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 0 0 10px 10px;
+     margin: 25px;
+     background-color: rgb(37, 37, 88);
+     height: 250px;
+     width: 260px;
+  }
+ 
+  
+  .card:hover{
+    background-color: rgb(52, 52, 110);
+    scale: 1.1;
+    cursor: pointer;
+  }
+  h2,p{
+    padding: 2px;
+  }
+
+  /* Contact page */
+  .form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    scroll-margin: 120px;
+    
+ }
+
+ .form-p{
+    font-size: 20px;
+    margin: 5px 0;
+
+ }
+ input{
+    width: 95%;
+    height: 25px;
+ }
+textarea{
+    width: 95%;
+}
+.box-btn{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+ .sub-btn{
+    margin: 25px 0;
+    padding: 8px 25px;
+    background-color: rgb(29,20,30);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+ }
+ .sub-btn:hover{
+    background-color: rgb(63, 45, 65);
+ }
+
+ /* Footer */
+ .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(3, 14, 32);
+    margin-top: 50px;
+ }
+ .title{
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 50%;
+    text-align: center;
+ }
+ .title>h2{
+    padding-bottom: 10px;
+ }
+
+ /* Icons */
+ .icons{
+    display: flex;
+    width: 100%;
+    margin: 0 auto ;
+    margin-top: 20px;
+    justify-content: center;
+ }
+
+ #fb{
+    color: rgb(24, 119, 242);
+    width: 50px;
+    height: 50px;
+    padding: 0 8px;
+    font-size: 25px;
+ }
+ #linkdin{
+   color:  rgb(10, 102, 194);
+   width: 50px;
+   height: 50px;
+   padding: 0 5px 0 50px;
+   font-size: 25px;
+ }
+ #github{
+    color: rgb(146, 144, 144);
+    width: 50px;
+    height: 50px;
+    padding: 0 8px;
+    font-size: 30px;
+    padding-bottom: 5px;
+ }
+
+ .menu-icon{
+    display: none;
+    right: 0;
+    left: 1rem;
+}
+
+/* Navbar Responsive */
+@media (max-width : 770px ){
+    nav ul{
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        width: 7rem;
+        align-items: center;
+        height: 25vh;
+        justify-content: flex-start;
+        background-color: rgba(27, 27, 85, 0.175);
+        top: 0;
+        padding-top: 3rem;
+        margin-top: 4rem;
+        gap: 2rem;
+        padding: 5px 0;
+        backdrop-filter: blur(10px);
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+    
+    .menu-icon{
+        display: inline;
+    }
+    
+    /* Initially, show the bars icon and hide the close icon */
+    .fa-bars {
+        display: inline;
+    }
+    
+    .fa-close {
+        display: none;
+    }
+
+    /* When menu-open class is active, hide bars and show close */
+    .menu-open .fa-bars {
+        display: none;
+    }
+
+    .menu-open .fa-close {
+        display: inline;
+    }
+
+    /* Show the menu when nav-opens is active */
+    .nav-opens {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: all;
+    }
+}
+
+
+ /* Responsive */
+ @media  (max-width : 468px) {
+    .first-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        gap: 80px;
+        height: fit-content;
+    
+    }
+    .righ-section{
+        order: -1;
+    
+    }
+    .left-section{
+        width: 100%;
+        padding: 0px;
+        order: 1;
+
+    }
+    div.left-section{
+        font-size: 1.4rem;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+    .btn{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-left: 0;
+        margin-left: 0;
+        
+        
+    }
+    .butn{
+        background-color: purple;
+        padding: 6px 8px 8px 6px;
+        text-align: center;
+        margin-top: 20px; 
+        cursor: pointer;   
+        border: none;
+        border-radius: 10px;
+        margin-left: 5px;
+        text-align: center;
+    }
+    img{
+        width: 220px;
+        height: 220px;
+        clip-path: circle(50%);
+        margin: 20px;
+    
+    }
+    /* about-page */
+    .About{
+        padding-top: 30px;
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        color: rgba(255, 255, 255, 0.877);
+    
+    }
+    h3{
+        margin-top: 25px;
+        font-size: 16px;
+        
+    }
+    hr{
+        margin-bottom: 15px;
+        
+    }
+    p{
+        font-size: 13px;
+    }
+    
+    /* Skill page */
+    .skill{
+        width: 93%;
+        height: fit-content;
+        margin: 0 auto;
+       
+      }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 0 0 10px 10px;
+     margin: 25px;
+     background-color: rgb(37, 37, 88);
+     height: 250px;
+     width: 260px;
+  }
+  
+  
+  /* Contact page */
+  .form{
+    width: 85%;
+    margin: 0 auto;
+ }
+ input{
+    width: 98%;
+    height: 25px;
+ }
+ textarea{
+    width: 98%;
+ }
+
+
+ /* Footer */
+ .title{
+    width: 80%;
+ }
+ 
+ }
+
+ /* Tablet responsive  */
+ @media  (min-width : 468px) and (max-width : 770px) {
+    .first-section{
+        flex-direction: column;
+    }
+    .righ-section{
+        order: -1;
+    }
+    
+    .left-section{
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+        order: 1;
+    }
+
+    .righ-section{
+        width: 100%;
+        
+        
+    }
+    img{
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        clip-path: circle(50%);
+        margin: 20px;
+        margin-bottom: 50px;
+    }
+    
+/* Skill page */
+.skill{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .card{
+     margin-top: 50px;
+     background-color: rgb(37, 37, 88);
+     height: 250px;
+     width: 260px;
+     margin: 20px;
+  }
+  .skill-box{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
+ 
+   /* Contact page */
+   .form{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+ }
+ input{
+    width: 90%;
+ }
+textarea{
+    width: 90%;
+}
+.box-btn{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Footer */
+.title{
+    width: 80%;
+ }
+  
+ }
+ 
